@@ -2,5 +2,7 @@
 /hello/migrations
 /hello/__pycache__
 /mysite/__pycache__
+/tasks
 key.py
 db.sqlite3
+test.py
