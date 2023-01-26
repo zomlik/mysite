@@ -1,5 +1,6 @@
+**/__pycache__
 /hello/migrations
 /hello/__pycache__
 /mysite/__pycache__
-/mysite/key.py
+key.py
 db.sqlite3
