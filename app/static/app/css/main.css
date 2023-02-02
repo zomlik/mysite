@@ -3,6 +3,24 @@ html,body{
     background-color: #E5E5E5;
     margin: 0;
     height: 100%;
+    font-family:Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #212121;
+
+}
+ul{
+    padding-inline-start: 0px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #0E091B;
+}
+a:hover{
+    color: #4b4b4b;
 }
 .conteiner{
     max-width: 1366px;
@@ -30,9 +48,8 @@ html,body{
 }
 .footer{
     width: 100%;
-    height: 334px;
-    background: #5a129e;
-    display: flex;
+    height: 338px;
+    background: #FDFDFD;
     flex: 0 0 auto;
 }
 
@@ -45,12 +62,8 @@ html,body{
 }
 .horizontal_menu{
     padding: 30px 0 30px 100px;
-    margin: 0;
 }
-ul{
-    margin: 0;
-}
-.hr li{
+.horizontal_menu li{
     display: inline;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -59,17 +72,17 @@ ul{
     line-height: 20px;
     padding-left: 5px;
 }
-.hr li a{
+.horizontal_menu li a{
     text-decoration: none;
     color: #0E091B;
 }
-.hr li a:hover{
+.horizontal_menu li a:hover{
     text-decoration: underline;
     color:#4b4b4b;
 }
 
 .icon{
-    padding: 30px 0 30px 50px;
+    padding: 30px 0 30px 80px;
     margin: 0;
 }
 .icon li {
@@ -78,8 +91,76 @@ ul{
 }
 .search {
     margin: 0;
-    padding: 30px 0 30px 60px;
+    padding: 30px 0 30px 80px;
 }
 /*Container Body*/
 
 /*Footer*/
+.upfooter{
+    width: 100%;
+    height: 292px;
+    display: flex;
+
+}
+.upfooter p,h4{
+    margin-top: 0;
+}
+.upfooter a{
+    text-decoration: none;
+    color: #0E091B;
+}
+.upfooter a:hover{
+    color:#4b4b4b;
+}
+.bottomfooter{
+    width: 100%;
+    height: 46px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+
+}
+
+.pocket_store{
+    width: 157px;
+    height: 141;
+    padding: 50px 0 0 104px;
+}
+.pocket_store ul li {
+    display: inline;
+    padding-right: 5px;
+    padding-left: 0;
+}
+.about{
+    width: 166px;
+    height: 192px;
+    padding: 50px 0 0 70px;
+}
+.customers{
+    width: 143px;
+    height: 192px;
+    padding: 50px 0 0 70px;
+}
+.payment{
+    width: 198px;
+    height: 137px;
+    padding: 50px 0 0 70px;
+}
+.payment ul li{
+    display: inline;
+    padding-right: 5px;
+    padding-left: 0;
+}
+.mobile{
+    width: 215px;
+    height: 177px;
+    padding: 50px 0 0 70px;
+
+}
+.counrty{
+    width: 400px;
+    padding: 16px 0 0 103px;
+}
+.cookes{
+    width: 400px;
+    padding: 16px 0 0 350px;
+}
